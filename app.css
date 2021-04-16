@@ -1,0 +1,148 @@
+body{
+    background-image: linear-gradient(to left bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.main{
+    background-color: white;
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    border-radius: 12px;
+}
+
+.logo{
+    height: 3rem;
+    margin: 30px 0 0 30px;
+}
+
+.content{
+    display:flex;
+    height: 480px;
+}
+
+.content-form{
+    padding: 0 60px 0 60px;
+    border-right: 2px solid #D3D3D3;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.content-message{
+    padding: 0 60px 0 60px;
+    text-align: center;
+    margin-top: 140px;
+    width: 100%;
+}
+
+
+/* .content-form >form{
+    width: 400px;
+    text-align: center;
+    
+} */
+
+.content-form > p{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.content-form input{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #D3D3D3;
+    font-family: inherit;
+    opacity: 60%;
+    padding: 8px;
+    
+}
+
+input[type=email], input[type=password]:focus{
+    outline: none;
+}
+
+input[type=checkbox]{
+    transform: scale(1.5);
+}
+
+.input{
+    width:310px
+}
+
+.content-form__icons i{
+   border-radius: 50%;
+   background-color: #696969;
+   color:#f2f2f2;
+   padding: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 12px;
+   font-weight: normal;
+}
+
+.content-form__options{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 37px;
+    padding-left: 37px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.darkgrey{
+    color: 	#696969;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-red{
+    font-family: inherit;
+    width: auto;
+    background-color: red;
+    padding: 10px 50px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: .8rem;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.muted{
+    color: 	#696969;
+    font-size: 9px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-weight: 600;
+
+}
+
+
+#wow {
+    position: relative;
+    left: 175px;
+    width: 50px;
+    border:none;
+    border-top: 5px solid #696969;
+  }
+
